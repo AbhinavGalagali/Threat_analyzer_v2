@@ -1,0 +1,29 @@
+# Core file processing
+PyMuPDF>=1.23.0
+docx2txt>=0.8
+
+# NLP and ML
+spacy>=3.7.0
+transformers>=4.40.0
+torch>=2.2.0      # Required by transformers
+sentencepiece>=0.1.99
+
+# Web/API
+requests>=2.31.0
+
+# Utilities
+werkzeug>=3.0.0
+pathlib==1.0.1    # (only needed for Python <3.4, otherwise optional)
+
+# JSON and Regex are standard library -> no install needed
+# datetime is standard library -> no install needed
+
+# Optional: If you want web dashboard functionality (Flask-based)
+Flask>=3.0.0
+flask-cors>=4.0.0
+
+# If your dashboard uses file uploads or async processing
+aiofiles>=23.1.0
+
+# For MITRE ATT&CK mapping or future extensions
+pandas>=2.2.0
